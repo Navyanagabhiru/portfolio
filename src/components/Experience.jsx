@@ -10,7 +10,7 @@ const Experience = () => {
   });
 
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div id="Experience" className="border-b border-neutral-800 pb-24">
       <motion.h2
         ref={headerRef}
         animate={{ opacity: headerInView ? 1 : 0, y: headerInView ? 0 : -100 }}

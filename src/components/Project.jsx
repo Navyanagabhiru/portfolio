@@ -10,7 +10,7 @@ const Project = () => {
   });
 
   return (
-    <div className="border-b border-neutral-800 pb-4">
+    <div id="Projects" className="border-b border-neutral-800 pb-4">
       <motion.h2
         ref={headerRef}
         animate={{ opacity: headerInView ? 1 : 0, y: headerInView ? 0 : -100 }}

@@ -29,7 +29,7 @@ const Technologies = () => {
         },
     });
   return (
-    <div className="border-b border-neutral-800 pb-4">
+    <div id="Technologies" className="border-b border-neutral-800 pb-4">
         <motion.h2
         ref={ref}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -100 }}

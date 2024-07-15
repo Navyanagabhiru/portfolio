@@ -10,7 +10,7 @@ const Contact = () => {
   });
 
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="Contact" className="border-b border-neutral-900 pb-4">
       <motion.h2
         ref={ref}
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -100 }}

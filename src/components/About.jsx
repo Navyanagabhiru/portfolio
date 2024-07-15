@@ -21,7 +21,7 @@ const About = () => {
   });
 
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="About" className="border-b border-neutral-900 pb-4">
       <motion.h2
         ref={headingRef}
         animate={{ opacity: headingInView ? 1 : 0, y: headingInView ? 0 : -100 }}

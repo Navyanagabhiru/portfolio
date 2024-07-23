@@ -7,19 +7,19 @@ const containerVariants = (delay) => ({
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.5, delay: delay, ease: "easeOut" }, // Adjust easing for smoother animation
+    transition: { duration: 0.5, delay: delay, ease: "easeOut" },
   },
 });
 
 const imageVariants = {
   hidden: { x: 100, opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 1, delay: 1.2, ease: "easeOut" } }, // Adjust easing for smoother animation
+  visible: { x: 0, opacity: 1, transition: { duration: 1, delay: 1.2, ease: "easeOut" } },
 };
 
 const Hero = () => {
   return (
     <div id="Home" className="border-b border-neutral-900 pb-4 lg:mb-35 mt-20">
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
@@ -55,18 +55,19 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-10">
+        <div className="w-full lg:w-1/2 lg:p-10 flex justify-end items-center"> {/* Adjusted alignment */}
           <motion.div
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-            className="flex justify-end" // Adjust alignment as per your design
+            className="flex justify-end"
+            style={{ marginTop: "70px", marginBottom: "5px" }}
           >
             <motion.img
               className="rounded-2xl"
               src={profilePic}
               alt="Navya Nagabhiru"
-              style={{ maxWidth: "100%", height: "auto" }} // Ensure image responsiveness
+              style={{ maxWidth: "85%", height: "auto" }}
             />
           </motion.div>
         </div>

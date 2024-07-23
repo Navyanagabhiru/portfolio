@@ -41,7 +41,7 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex flex-col items-center lg:items-start">
-            <img className="rounded-2xl" src={aboutImg} alt="about" style={{ height: '250px', width: '500px' }} />
+            <img className="rounded-2xl" src={aboutImg} alt="about" style={{ height: '200px', width: '400px' }} />
           </div>
         </motion.div>
         <motion.div

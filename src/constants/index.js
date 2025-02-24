@@ -9,8 +9,8 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Sep 2023 - Apr 2034 ",
-    role: "Software Developer Intern",
+    year: "Sep 2023 - Present ",
+    role: "Software Developer",
     company: "Skillo Inc",
     description: `Implemented automated trading algorithms and models in Java, optimizing strategies and risk management for increased trading efficiency and profitability. Collaborated with traders to enhance performance and mitigate risks in volatile market conditions through strategic analysis and timely solutions.`,
     technologies: ["Java", "Bootstrap", "python", "MongoDB", "Git"],
